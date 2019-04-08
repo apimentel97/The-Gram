@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C1E2F014225B11930004CE00 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2F013225B11930004CE00 /* AppDelegate.swift */; };
+		C1E2F016225B11930004CE00 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2F015225B11930004CE00 /* ViewController.swift */; };
+		C1E2F019225B11930004CE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E2F017225B11930004CE00 /* Main.storyboard */; };
+		C1E2F01B225B11950004CE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1E2F01A225B11950004CE00 /* Assets.xcassets */; };
+		C1E2F01E225B11950004CE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C1E2F01C225B11950004CE00 /* LaunchScreen.storyboard */; };
+		C1E2F029225B11960004CE00 /* The_GramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2F028225B11960004CE00 /* The_GramTests.swift */; };
+		C1E2F034225B11960004CE00 /* The_GramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1E2F033225B11960004CE00 /* The_GramUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C1E2F025225B11960004CE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E2F008225B11930004CE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E2F00F225B11930004CE00;
+			remoteInfo = "The Gram";
+		};
+		C1E2F030225B11960004CE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C1E2F008225B11930004CE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C1E2F00F225B11930004CE00;
+			remoteInfo = "The Gram";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C1E2F010225B11930004CE00 /* The Gram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Gram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E2F013225B11930004CE00 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C1E2F015225B11930004CE00 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C1E2F018225B11930004CE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C1E2F01A225B11950004CE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C1E2F01D225B11950004CE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C1E2F01F225B11950004CE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E2F024225B11960004CE00 /* The GramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The GramTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E2F028225B11960004CE00 /* The_GramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_GramTests.swift; sourceTree = "<group>"; };
+		C1E2F02A225B11960004CE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1E2F02F225B11960004CE00 /* The GramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The GramUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E2F033225B11960004CE00 /* The_GramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_GramUITests.swift; sourceTree = "<group>"; };
+		C1E2F035225B11960004CE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C1E2F00D225B11930004CE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E2F021225B11960004CE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E2F02C225B11960004CE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C1E2F007225B11930004CE00 = {
+			isa = PBXGroup;
+			children = (
+				C1E2F012225B11930004CE00 /* The Gram */,
+				C1E2F027225B11960004CE00 /* The GramTests */,
+				C1E2F032225B11960004CE00 /* The GramUITests */,
+				C1E2F011225B11930004CE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C1E2F011225B11930004CE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C1E2F010225B11930004CE00 /* The Gram.app */,
+				C1E2F024225B11960004CE00 /* The GramTests.xctest */,
+				C1E2F02F225B11960004CE00 /* The GramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C1E2F012225B11930004CE00 /* The Gram */ = {
+			isa = PBXGroup;
+			children = (
+				C1E2F013225B11930004CE00 /* AppDelegate.swift */,
+				C1E2F015225B11930004CE00 /* ViewController.swift */,
+				C1E2F017225B11930004CE00 /* Main.storyboard */,
+				C1E2F01A225B11950004CE00 /* Assets.xcassets */,
+				C1E2F01C225B11950004CE00 /* LaunchScreen.storyboard */,
+				C1E2F01F225B11950004CE00 /* Info.plist */,
+			);
+			path = "The Gram";
+			sourceTree = "<group>";
+		};
+		C1E2F027225B11960004CE00 /* The GramTests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E2F028225B11960004CE00 /* The_GramTests.swift */,
+				C1E2F02A225B11960004CE00 /* Info.plist */,
+			);
+			path = "The GramTests";
+			sourceTree = "<group>";
+		};
+		C1E2F032225B11960004CE00 /* The GramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C1E2F033225B11960004CE00 /* The_GramUITests.swift */,
+				C1E2F035225B11960004CE00 /* Info.plist */,
+			);
+			path = "The GramUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C1E2F00F225B11930004CE00 /* The Gram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E2F038225B11960004CE00 /* Build configuration list for PBXNativeTarget "The Gram" */;
+			buildPhases = (
+				C1E2F00C225B11930004CE00 /* Sources */,
+				C1E2F00D225B11930004CE00 /* Frameworks */,
+				C1E2F00E225B11930004CE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "The Gram";
+			productName = "The Gram";
+			productReference = C1E2F010225B11930004CE00 /* The Gram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C1E2F023225B11960004CE00 /* The GramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E2F03B225B11960004CE00 /* Build configuration list for PBXNativeTarget "The GramTests" */;
+			buildPhases = (
+				C1E2F020225B11960004CE00 /* Sources */,
+				C1E2F021225B11960004CE00 /* Frameworks */,
+				C1E2F022225B11960004CE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E2F026225B11960004CE00 /* PBXTargetDependency */,
+			);
+			name = "The GramTests";
+			productName = "The GramTests";
+			productReference = C1E2F024225B11960004CE00 /* The GramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C1E2F02E225B11960004CE00 /* The GramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1E2F03E225B11960004CE00 /* Build configuration list for PBXNativeTarget "The GramUITests" */;
+			buildPhases = (
+				C1E2F02B225B11960004CE00 /* Sources */,
+				C1E2F02C225B11960004CE00 /* Frameworks */,
+				C1E2F02D225B11960004CE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1E2F031225B11960004CE00 /* PBXTargetDependency */,
+			);
+			name = "The GramUITests";
+			productName = "The GramUITests";
+			productReference = C1E2F02F225B11960004CE00 /* The GramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C1E2F008225B11930004CE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Alejandro pimentel";
+				TargetAttributes = {
+					C1E2F00F225B11930004CE00 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+					C1E2F023225B11960004CE00 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C1E2F00F225B11930004CE00;
+					};
+					C1E2F02E225B11960004CE00 = {
+						CreatedOnToolsVersion = 10.2;
+						TestTargetID = C1E2F00F225B11930004CE00;
+					};
+				};
+			};
+			buildConfigurationList = C1E2F00B225B11930004CE00 /* Build configuration list for PBXProject "The Gram" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C1E2F007225B11930004CE00;
+			productRefGroup = C1E2F011225B11930004CE00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C1E2F00F225B11930004CE00 /* The Gram */,
+				C1E2F023225B11960004CE00 /* The GramTests */,
+				C1E2F02E225B11960004CE00 /* The GramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C1E2F00E225B11930004CE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E2F01E225B11950004CE00 /* LaunchScreen.storyboard in Resources */,
+				C1E2F01B225B11950004CE00 /* Assets.xcassets in Resources */,
+				C1E2F019225B11930004CE00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E2F022225B11960004CE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E2F02D225B11960004CE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C1E2F00C225B11930004CE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E2F016225B11930004CE00 /* ViewController.swift in Sources */,
+				C1E2F014225B11930004CE00 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E2F020225B11960004CE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E2F029225B11960004CE00 /* The_GramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1E2F02B225B11960004CE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C1E2F034225B11960004CE00 /* The_GramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C1E2F026225B11960004CE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E2F00F225B11930004CE00 /* The Gram */;
+			targetProxy = C1E2F025225B11960004CE00 /* PBXContainerItemProxy */;
+		};
+		C1E2F031225B11960004CE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C1E2F00F225B11930004CE00 /* The Gram */;
+			targetProxy = C1E2F030225B11960004CE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C1E2F017225B11930004CE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E2F018225B11930004CE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C1E2F01C225B11950004CE00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C1E2F01D225B11950004CE00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C1E2F036225B11960004CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C1E2F037225B11960004CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C1E2F039225B11960004CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDFC2CU6J;
+				INFOPLIST_FILE = "The Gram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.The-Gram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1E2F03A225B11960004CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDFC2CU6J;
+				INFOPLIST_FILE = "The Gram/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.The-Gram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C1E2F03C225B11960004CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDFC2CU6J;
+				INFOPLIST_FILE = "The GramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.The-GramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Gram.app/The Gram";
+			};
+			name = Debug;
+		};
+		C1E2F03D225B11960004CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDFC2CU6J;
+				INFOPLIST_FILE = "The GramTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.The-GramTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Gram.app/The Gram";
+			};
+			name = Release;
+		};
+		C1E2F03F225B11960004CE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDFC2CU6J;
+				INFOPLIST_FILE = "The GramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.The-GramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Gram";
+			};
+			name = Debug;
+		};
+		C1E2F040225B11960004CE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6XDFC2CU6J;
+				INFOPLIST_FILE = "The GramUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "codepath.The-GramUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Gram";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C1E2F00B225B11930004CE00 /* Build configuration list for PBXProject "The Gram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E2F036225B11960004CE00 /* Debug */,
+				C1E2F037225B11960004CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E2F038225B11960004CE00 /* Build configuration list for PBXNativeTarget "The Gram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E2F039225B11960004CE00 /* Debug */,
+				C1E2F03A225B11960004CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E2F03B225B11960004CE00 /* Build configuration list for PBXNativeTarget "The GramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E2F03C225B11960004CE00 /* Debug */,
+				C1E2F03D225B11960004CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1E2F03E225B11960004CE00 /* Build configuration list for PBXNativeTarget "The GramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1E2F03F225B11960004CE00 /* Debug */,
+				C1E2F040225B11960004CE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C1E2F008225B11930004CE00 /* Project object */;
+}
