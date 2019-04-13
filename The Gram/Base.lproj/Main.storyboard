@@ -13,7 +13,7 @@
         <!--Login View Controller-->
         <scene sceneID="7Y4-CO-GHG">
             <objects>
-                <viewController id="L3f-by-2CO" customClass="LoginViewController" customModule="The_Gram" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="L3f-by-2CO" customClass="LoginViewController" customModule="The_Gram" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ho1-O2-eXU">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -66,6 +66,10 @@
                                     <action selector="onSignIn:" destination="L3f-by-2CO" eventType="touchUpInside" id="YWr-z6-ZZA"/>
                                 </connections>
                             </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="r2i-CW-Q2X">
+                                <rect key="frame" x="57" y="122" width="296" height="164"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="uz2-fa-NCi"/>
@@ -107,13 +111,13 @@
                                                     </constraints>
                                                 </imageView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H1w-Bh-wSW">
-                                                    <rect key="frame" x="8" y="442" width="42" height="21"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <rect key="frame" x="8" y="442" width="44.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zrG-4I-E5h">
-                                                    <rect key="frame" x="58" y="442" width="348" height="20.5"/>
+                                                    <rect key="frame" x="60.5" y="442" width="345.5" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -144,6 +148,11 @@
                         <viewLayoutGuide key="safeArea" id="nfT-wk-eB7"/>
                     </view>
                     <navigationItem key="navigationItem" id="V1i-lV-ylE">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="nQ1-SM-Dga">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="eyh-0B-rDa" id="4fj-3n-vku"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="+" image="insta_camera_btn" id="dEw-NO-4GU">
                             <connections>
                                 <segue destination="WCQ-Ox-M9U" kind="presentation" id="Yb3-N9-Zze"/>
@@ -210,7 +219,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Vub-EV-21V">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aqq-Lx-yTf" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="FeedNavigationController" automaticallyAdjustsScrollViewInsets="NO" id="aqq-Lx-yTf" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ZjN-AZ-Sdl">
                         <rect key="frame" x="0.0" y="44" width="414" height="44"/>
@@ -229,5 +238,6 @@
     <resources>
         <image name="image_placeholder" width="375" height="375"/>
         <image name="insta_camera_btn" width="25" height="25"/>
+        <image name="logo" width="6588" height="2262"/>
     </resources>
 </document>

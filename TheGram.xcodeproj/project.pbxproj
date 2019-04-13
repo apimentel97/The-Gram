@@ -257,7 +257,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C1E2F00B225B11930004CE00 /* Build configuration list for PBXProject "The Gram" */;
+			buildConfigurationList = C1E2F00B225B11930004CE00 /* Build configuration list for PBXProject "TheGram" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -708,7 +708,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C1E2F00B225B11930004CE00 /* Build configuration list for PBXProject "The Gram" */ = {
+		C1E2F00B225B11930004CE00 /* Build configuration list for PBXProject "TheGram" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C1E2F036225B11960004CE00 /* Debug */,
